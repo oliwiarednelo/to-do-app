@@ -58,17 +58,15 @@ h3{
 #card {
     width: 290px;
     background-color: #fafafa;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
  border-radius: 5px;
-
 overflow-wrap: break-word;
 padding-left: 5px;
 padding-right: 5px;
-
-
 align-items: flex-start;
 }
+
 
 
 
@@ -113,22 +111,22 @@ border: #fafafa 1px solid;
 border-radius: 5px;
 padding-left: 15px;
 padding-right: 15px;
-width:270px;
+width:70%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #form button {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
-border-radius: 5px;
-font-size: 15px;
-border: #2E7FED;
-background-color: #2E7FED;
-margin-left: 44px;
-}
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: #2E7FED;
+  background-color: #2E7FED;
+  margin-left: 44px;
+  }
 #form button:hover  {
 cursor: pointer;
 background-color: #fafafa;
@@ -137,14 +135,9 @@ color: #132D55;
 
 }
 
-#msg {
-    color: rgb(247, 73, 94);
-    margin-left: 40px;
-    margin-top: 10px;
-}
 
 #nameInput {
-    width:270px;
+    width:70%;
     margin-left: auto;
     margin-right: auto;
 height: 27px;
@@ -191,5 +184,6 @@ font-weight: 500;
   width: 75%;
    
 }
+
  
   }
