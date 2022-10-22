@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="http://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23bf1fc2f4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="app">
+<h1>To do list</h1>
+<p class="add-task-title">Create a new task</p>
+<form id="form">
+    <input maxLength="15" placeholder="Title..." type="text" id="nameInput" required></input>
+    <input placeholder="Description of a task..." type="text" id="input" required></input>
+    <button type="submit">Add a task</button>
+
+</form>
+
+<h3>Tasks</h3>
+
+<div id="tasks">
+    <div id="card">
+        <div id="options">
+            
+            <i onClick="editTask(this)" class="fa-solid fa-pen-to-square"></i>
+            <i onClick="deleteTask(this)" class="fa-solid fa-trash"></i>
+        </div>
+        
+        <div class="title">Task 1</div>
+
+        <p class="body-text">Read a book</p>
+
+  
+    </div>
+</div>
+
+
+    </div>
+   
+</body>
+<script src="script.js"></script>
+
+
+
+</html>
